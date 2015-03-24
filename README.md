@@ -14,7 +14,7 @@ Just add the following to your project.clj file in the _dependencies_ section:
 
 
 ## Usage
-```
+```clojure
 (require  '[clj-pushover.core :as pushover])
 
 (let [response (pushover/send-message! {:message "FooBar" :user "USERKEY" :token "APPTOKEN" })]
